@@ -5,7 +5,7 @@ import BookEndorsement from '@/components/BookEndorsement';
 import './single-page.css';
 
 const base = import.meta.env.BASE_URL;
-const email = 'info@consultantpharmacistsofamerica.com';
+const email = 'ConsultantPharmacistsofAmerica@gmail.com';
 const amazonUrl = 'https://www.amazon.com/dp/B0BM39YRRR';
 const mail = (subject: string, body: string) =>
   `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;

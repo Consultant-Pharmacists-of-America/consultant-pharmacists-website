@@ -9,7 +9,7 @@ import BookEndorsement from '@/components/BookEndorsement';
 import { Link, Redirect, Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 
 const base = import.meta.env.BASE_URL;
-const email = 'info@consultantpharmacistsofamerica.com';
+const email = 'ConsultantPharmacistsofAmerica@gmail.com';
 const amazonUrl = 'https://www.amazon.com/dp/B0BM39YRRR';
 const navItems = [
   { href: '/', label: 'Home' },
